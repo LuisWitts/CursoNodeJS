@@ -1,0 +1,4 @@
+Comando usados para criar Tabela no banco de dados MySQL
+CREATE DATABASE sistemaDeCadastro;
+use sistemaDeCadastro;
+DESCRIBE usuarios;
