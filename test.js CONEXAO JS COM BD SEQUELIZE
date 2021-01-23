@@ -10,7 +10,7 @@ const sequelize = new Sequelize('test','root','956300',{
 sequelize.authenticate().then(function () {      //SE der BOM agt chama a Funcão then
     console.log("Conectado com SUCESSO!!");   
     
-}).catch(function (erro) {                       //SE der BOM agt chama a Funcão catch
+}).catch(function (erro) {                       //SE NAO der BOM agt chama a Funcão catch
     console.log("Falha ao se conectar: "+erro);
     
 })
