@@ -1,0 +1,4 @@
+npm install --save sequelize
+npm install --save mysql2
+//tem que estar dentro do diretorio do seu projeto.
+
